@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import satellite from "../assets/satellite.mp4";
 import college from "../assets/college.png";
-import Satellitebg from "../assets/Satellitebg.jpeg";
+import Satellitebg from "../assets/satellitebg.jpeg";
 import mark2 from "../assets/mark2.mp4";
 
 const SatellitePage = () => {
