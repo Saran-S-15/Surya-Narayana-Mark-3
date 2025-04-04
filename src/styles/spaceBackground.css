@@ -1,0 +1,15 @@
+@keyframes twinkling {
+    0% { opacity: 0.3; }
+    50% { opacity: 1; }
+    100% { opacity: 0.3; }
+  }
+  
+  .bg-stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/stardust.png'),
+                radial-gradient(circle at top, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0.8) 100%);
+    animation: twinkling 4s infinite ease-in-out;
+    z-index: -1;
+  }
